@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Setup Instructions</title>
+    <script src="setup.js"></script>
+</head>
+
+<body>
+    <h1>Ungoogled Chromium Setup Instructions:</h1>
+    <br />
+    <h3>Step 1 - Chrome Webstore:</h3>
+    <p>First change the flag <a
+            href="chrome://flags/#extension-mime-request-handling">extension-mime-request-handling</a> to "Always prompt
+        for install".</p>
+    <p>Then click <a
+            href="https://github.com/NeverDecaf/chromium-web-store/releases/latest/download/Chromium.Web.Store.crx">this
+            link</a> and press "Add extension" when asked if you would like to install the chromium web store.</p>
+    <br />
+    <h3>Step 2 - DuckDuckGo:</h3>
+    <p><a href="chrome://settings/searchEngines">Click here</a> to open the search engine settings.</p>
+    <p>
+        Under site search press add and then type the following:
+        <br />
+        Name: DuckDuckGo
+        <br />
+        Shortcut: duckduckgo.com
+        <br />
+        URL with %s in place of query:
+        https://start.duckduckgo.com/?q=%s&kae=d&kp=1&kbe=0&kbg=-1&k5=2&kz=-1&k1=-1&kak=-1&kax=-1&kaq=-1&kao=-1&kau=-1&kap=-1&kpsb=-1&kav=1&k18=1
+        <br />
+        Suggestions URL with %s in place of query:
+        https://start.duckduckgo.com/ac/?q=%s&type=list&kae=d&kp=1&kbe=0&kbg=-1&k5=2&kz=-1&k1=-1&kak=-1&kax=-1&kaq=-1&kao=-1&kau=-1&kap=-1&kpsb=-1&kav=1&k18=1
+    </p>
+</body>
+
+</html>

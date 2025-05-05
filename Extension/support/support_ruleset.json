@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "url": "https://github.com/ungoogled-software/ungoogled-chromium?tab=readme-ov-file#ungoogled-chromium"
+            }
+        },
+        "condition": {
+            "urlFilter": "*://support.9oo91e.qjz9zk/chrome*",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "font",
+                "object",
+                "xmlhttprequest",
+                "ping",
+                "csp_report",
+                "media",
+                "websocket",
+                "webtransport",
+                "webbundle",
+                "other"
+            ]
+        }
+    }
+]

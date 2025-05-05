@@ -1,0 +1,11 @@
+ytd-reel-shelf-renderer {
+    display: none !important;
+}
+
+ytd-rich-section-renderer {
+    display: none !important;
+}
+
+ytd-guide-entry-renderer:has(a[title="Shorts"]) {
+    display: none !important;
+}
